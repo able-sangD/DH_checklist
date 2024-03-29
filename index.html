@@ -246,7 +246,11 @@ function calculateResult() {
     document.getElementById('result').innerText = resultText;
 
     // A와 B의 합계 표시
-    alert("A: " + aCount + "\nB: " + bCount);
+    alert("부교감신경이 우위 : A(0~7) B(20~27)" 
+    + "\n균형 양호 : A(8~11) B(16~19)"
+     + "\n교감신경이 우위 : A(12~27) B(0~15)" 
+     + "\nA: " + aCount 
+     + "\nB: " + bCount);
 
     // 3초 후 결과 표시
     setTimeout(function() {
